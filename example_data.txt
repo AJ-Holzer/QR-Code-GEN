@@ -1,0 +1,39 @@
+# Just some data
+
+with open("Data.json", "r", encoding="utf-8") as f: data: str = json.load(f)
+
+
+
+# Wifi
+
+data = "WIFI:T:WPA;S:ExampleNetwork;P:hihihi;H:false;;"
+
+
+
+# Phone
+
+data = "tel:+123412341234"
+
+
+
+# Email
+
+data = "mailto:mr_anon@example.com"
+
+
+
+# SMS
+
+data = "smsto:+123412341234:Hello"
+
+
+
+# VCard
+
+data = """BEGIN:VCARD
+    VERSION:3.0
+    FN:AJ-Holzer
+    TEL:+123412341234
+    EMAIL:mr_anon@example.com
+    END:VCARD
+"""
