@@ -1,6 +1,6 @@
 # QR-Code Generator
 
-Yet another QR code generator in Python
+Yet another QR-Code generator in Python
 
 ## How to Use
 
